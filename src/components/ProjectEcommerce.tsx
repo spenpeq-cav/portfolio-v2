@@ -1,0 +1,98 @@
+import React from "react";
+
+function ProjectEcommerce() {
+  return (
+    <div className="bg-gradient-to-tl from-neutral-400 to-neutral-500 py-12">
+      <div className="grid grid-cols-3 gap-2 px-8 py-10 xl:px-36">
+        <img
+          className="w-24 h-24 col-span-1 mx-auto md:w-auto md:h-36 lg:h-48 lg:mr-16"
+          src="images/projectlogo2.png"
+        />
+        <div className="col-span-2">
+          <h1 className="text-white text-4xl md:text-5xl font-semibold flex">
+            Ecommerce Shop
+          </h1>
+          <p className="text-white tracking-wide py-4 text-left text-lg">
+            Ecommerce Shop is a mock product store with full functionality,
+            including cart, view profile/orders, checkout with the PayPal API,
+            etc.
+          </p>
+          <div className="flex flex-col sm:flex-row">
+            <a
+              className="btn btn-live my-4 sm:my-0"
+              target="_blank"
+              href="https://spencer-ecommerce-shop.herokuapp.com/"
+            >
+              <span className="flex">
+                <i className="fas fa-circle fa-xs absolute inline-flex animate-ping opacity-80 mt-1"></i>
+                <i className="fas fa-circle fa-xs relative inline-flex top-1"></i>
+                <span className="inline-flex pl-2">Live Demo</span>
+              </span>
+            </a>
+            <a
+              className="btn btn-primary2 text-center sm:ml-4"
+              target="_blank"
+              href="https://github.com/spenpeq/ecommerce_app"
+            >
+              Code
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="px-4">
+        <ul className="list-none flex flex-wrap py-4 justify-center">
+          <li className="bg-gray-900 tech-labels">
+            <i className="fab fa-react text-blue-400"></i> React
+          </li>
+          <li className="bg-gray-900 tech-labels">
+            <i className="fab fa-react text-blue-400"></i> React Redux
+          </li>
+          <li className="bg-gray-900 tech-labels">
+            <i className="fab fa-react text-blue-400"></i> React Bootstrap
+          </li>
+          <li className="bg-gray-900 tech-labels">
+            <i className="fab fa-python text-yellow-300"></i> Python
+          </li>
+          <li className="bg-gray-900 tech-labels">
+            <i className="fab fa-python text-yellow-300"></i> Django
+          </li>
+          <li className="bg-gray-900 tech-labels">
+            <i className="fab fa-html5 text-yellow-600"></i> HTML
+          </li>
+          <li className="bg-gray-900 tech-labels">
+            <i className="fas fa-database"></i> PostgreSQL
+          </li>
+          <li className="bg-gray-900 tech-labels">
+            <i className="fab fa-aws"></i> AWS S3 Bucket
+          </li>
+          <li className="bg-gray-900 tech-labels">
+            <i className="fas fa-cogs"></i> PayPal API
+          </li>
+          <li className="bg-gray-900 tech-labels">
+            <i className="fas fa-cogs"></i> JSON Web Tokens
+          </li>
+        </ul>
+      </div>
+      <div className="flex flex-wrap justify-center">
+        <img
+          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-auto lg:px-4"
+          src="images/store1.jpg"
+        />
+        <img
+          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-auto lg:px-4"
+          src="images/store2.jpg"
+        />
+        <img
+          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-auto lg:px-4"
+          src="images/store4.jpg"
+        />
+        <img
+          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-auto lg:px-4"
+          src="images/store5.jpg"
+        />
+      </div>
+    </div>
+  );
+}
+
+export default ProjectEcommerce;
