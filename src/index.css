@@ -10,27 +10,27 @@
   .btn-primary1 {
       @apply bg-yellow-900 hover:bg-yellow-600
       focus:ring-yellow-900 focus:ring-opacity-50 
-      active:bg-yellow-400 text-yellow-100 hover:-translate-y-1 border-2 border-gray-100;
+      active:bg-yellow-400 text-yellow-100 hover:-translate-y-1 border-2 border-neutral-100;
   }
   .btn-primary2 {
-      @apply bg-gray-800 hover:bg-gray-600
-      focus:ring-gray-800 focus:ring-opacity-50 
-      active:bg-gray-500 text-gray-100 hover:-translate-y-1 border-2 border-gray-100;
+      @apply bg-neutral-800 hover:bg-neutral-600
+      focus:ring-neutral-800 focus:ring-opacity-50 
+      active:bg-neutral-500 text-neutral-100 hover:-translate-y-1 border-2 border-neutral-100;
   }
   .btn-primary3 {
       @apply bg-indigo-700 hover:bg-indigo-500
       focus:ring-indigo-600 focus:ring-opacity-50 
-      active:bg-indigo-400 text-indigo-100 hover:-translate-y-1 border-2 border-gray-100;
+      active:bg-indigo-400 text-indigo-100 hover:-translate-y-1 border-2 border-neutral-100;
   }
   .btn-primary4 {
-      @apply bg-lime-900 hover:bg-lime-500
-      focus:ring-lime-600 focus:ring-opacity-50 
-      active:bg-lime-400 text-lime-100 hover:-translate-y-1 border-2 border-gray-900;
+      @apply bg-teal-900 hover:bg-teal-500
+      focus:ring-teal-600 focus:ring-opacity-50 
+      active:bg-teal-400 text-teal-100 hover:-translate-y-1 border-2 border-neutral-900 hover:text-neutral-900;
   }
   .btn-secondary {
-      @apply bg-gray-300 hover:bg-gray-200
-      focus:ring-gray-300 focus:ring-opacity-50 
-      active:bg-gray-400 text-gray-800 hover:-translate-y-1;
+      @apply bg-neutral-300 hover:bg-neutral-200
+      focus:ring-neutral-300 focus:ring-opacity-50 
+      active:bg-neutral-400 text-neutral-800 hover:-translate-y-1;
   }
   .btn-live {
       @apply bg-red-100 hover:bg-red-400

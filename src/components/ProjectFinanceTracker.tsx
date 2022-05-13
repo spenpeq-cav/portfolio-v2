@@ -2,10 +2,10 @@ import React from "react";
 
 function ProjectFinanceTracker() {
   return (
-    <div className="bg-gradient-to-tl from-lime-700 to-lime-500 py-12">
+    <div className="bg-gradient-to-tl from-teal-700 to-teal-600 py-12">
       <div className="grid grid-cols-3 gap-2 px-8 py-10 xl:px-36">
         {/* <img className="w-24 h-24 col-span-1 mx-auto md:w-36 md:h-36" src="img/placeholder.png" /> */}
-        <i className="fas fa-money-bill-wave flex flex-col bg-teal-900 rounded-xl text-teal-600 text-center text-5xl md:text-7xl justify-center w-24 h-24 col-span-1 mx-auto md:w-36 md:h-36 lg:mr-16"></i>
+        <i className="fas fa-money-bill-wave flex flex-col bg-lime-800 rounded-xl text-lime-300 text-center text-5xl md:text-7xl justify-center w-24 h-24 col-span-1 mx-auto md:w-36 md:h-36 lg:mr-16"></i>
         <div className="col-span-2">
           <h1 className="text-neutral-900 text-gradient-to-tl from-blue-700 to-blue-500 text-5xl font-extrabold flex">
             Finance Tracker
@@ -39,40 +39,58 @@ function ProjectFinanceTracker() {
       </div>
       <div className="lg:px-56">
         <ul className="list-none flex flex-wrap py-4 justify-center">
-          <li className="bg-lime-900 tech-labels">
+          <li className="bg-teal-900 tech-labels">
             <i className="fab fa-react text-blue-400"></i> React
           </li>
-          <li className="bg-lime-900 tech-labels">
+          <li className="bg-teal-900 tech-labels">
             <i className="fab fa-react text-blue-400"></i> Next.js
           </li>
-          <li className="bg-lime-900 tech-labels">
+          <li className="bg-teal-900 tech-labels">
             <i className="fab fa-react text-blue-400"></i> Next-Auth
           </li>
-          <li className="bg-lime-900 tech-labels">
+          <li className="bg-teal-900 tech-labels">
             <i className="fab fa-react text-blue-400"></i> Typescript
           </li>
-          <li className="bg-lime-900 tech-labels">
+          <li className="bg-teal-900 tech-labels">
             <i className="fas fa-wind text-blue-300"></i> Tailwind CSS
           </li>
-          <li className="bg-lime-900 tech-labels">
+          <li className="bg-teal-900 tech-labels">
             <i className="fas fa-database text-green-400"></i> PostgreSQL
           </li>
-          <li className="bg-lime-900 tech-labels">
+          <li className="bg-teal-900 tech-labels">
             <i className="fas fa-cogs text-gray-200"></i> Plaid API
           </li>
-          <li className="bg-lime-900 tech-labels">
+          <li className="bg-teal-900 tech-labels">
             <i className="fas fa-cogs text-gray-200"></i> Prisma
           </li>
         </ul>
       </div>
-      {/* <div className="flex flex-wrap justify-center">
-            <img className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4" src="img/nat-photo-1.JPG" />
-            <img className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4" src="img/nat-photo-2.JPG" />
-            <img className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4" src="img/nat-photo-3.JPG" />
-            <img className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4" src="img/nat-photo-4.JPG" />
-            <img className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4" src="img/nat-photo-5.JPG" />
-            <img className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4" src="img/nat-photo-6.JPG" />
-        </div> */}
+      <div className="flex flex-wrap justify-center">
+        <img
+          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
+          src="images/finance_pic_1.JPG"
+        />
+        <img
+          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
+          src="images/finance_pic_2.JPG"
+        />
+        <img
+          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
+          src="images/finance_pic_6.JPG"
+        />
+        <img
+          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
+          src="images/finance_pic_3.JPG"
+        />
+        <img
+          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
+          src="images/finance_pic_4.JPG"
+        />
+        <img
+          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
+          src="images/finance_pic_5.JPG"
+        />
+      </div>
     </div>
   );
 }
