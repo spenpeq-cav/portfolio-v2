@@ -39,7 +39,7 @@ function ProjectEcommerce() {
           </div>
         </div>
       </div>
-      <div className="px-4">
+      <div className="lg:px-56">
         <ul className="list-none flex flex-wrap py-4 justify-center">
           <li className="bg-gray-900 tech-labels">
             <i className="fab fa-react text-blue-400"></i> React
@@ -74,22 +74,18 @@ function ProjectEcommerce() {
         </ul>
       </div>
       <div className="flex flex-wrap justify-center">
-        <img
-          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-auto lg:px-4"
-          src="images/store1.jpg"
-        />
-        <img
-          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-auto lg:px-4"
-          src="images/store2.jpg"
-        />
-        <img
-          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-auto lg:px-4"
-          src="images/store4.jpg"
-        />
-        <img
-          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-auto lg:px-4"
-          src="images/store5.jpg"
-        />
+        <div className="px-6 py-2 md:px-12 lg:px-4">
+          <img className="image-style" src="images/store1.jpg" />
+        </div>
+        <div className="px-6 py-2 md:px-12 lg:px-4">
+          <img className="image-style" src="images/store2.jpg" />
+        </div>
+        <div className="px-6 py-2 md:px-12 lg:px-4">
+          <img className="image-style" src="images/store3.jpg" />
+        </div>
+        <div className="px-6 py-2 md:px-12 lg:px-4">
+          <img className="image-style" src="images/store4.jpg" />
+        </div>
       </div>
     </div>
   );

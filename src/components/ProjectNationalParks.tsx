@@ -2,15 +2,15 @@ import React from "react";
 
 function ProjectNationalParks() {
   return (
-    <div className="bg-gradient-to-tl from-yellow-600 to-yellow-400 py-12">
+    <div className="bg-gradient-to-tl from-green-900 to-green-800 py-12">
       <div className="grid grid-cols-3 gap-2 px-8 py-10 xl:px-36">
         {/* <img className="w-24 h-24 col-span-1 mx-auto md:w-36 md:h-36" src="img/placeholder.png" /> */}
-        <i className="fas fa-mountain flex flex-col bg-green-900 rounded-xl text-green-600 text-center text-5xl md:text-7xl justify-center w-24 h-24 col-span-1 mx-auto md:w-36 md:h-36 lg:mr-16"></i>
+        <i className="fas fa-mountain flex flex-col bg-yellow-900 rounded-xl text-green-700 text-center text-5xl md:text-7xl justify-center w-24 h-24 col-span-1 mx-auto md:w-36 md:h-36 lg:mr-16"></i>
         <div className="col-span-2">
-          <h1 className="text-gray-50 text-gradient-to-tl from-blue-700 to-blue-500 text-5xl font-extrabold flex">
+          <h1 className="text-neutral-50 text-gradient-to-tl from-blue-700 to-blue-500 text-5xl font-extrabold flex tracking-wide">
             National Parks
           </h1>
-          <p className="text-gray-50 tracking-wide py-4 text-left text-lg">
+          <p className="text-neutral-100 tracking-wide py-4 text-left text-lg">
             Explore America's National Parks with this informational park site.
             Search by state or keyword to get all park information. When you
             find your favorite parks, add them to your favorites. This site is
@@ -71,7 +71,7 @@ function ProjectNationalParks() {
             <i className="fas fa-cogs text-green-400"></i> Mongoose
           </li>
           <li className="bg-yellow-900 tech-labels">
-            <i className="fas fa-cogs text-gray-200"></i> NPS API
+            <i className="fas fa-cogs text-neutral-200"></i> NPS API
           </li>
           <li className="bg-yellow-900 tech-labels">
             {" "}
@@ -81,30 +81,24 @@ function ProjectNationalParks() {
         </ul>
       </div>
       <div className="flex flex-wrap justify-center">
-        <img
-          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/nat-photo-1.jpg"
-        />
-        <img
-          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/nat-photo-2.jpg"
-        />
-        <img
-          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/nat-photo-3.jpg"
-        />
-        <img
-          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/nat-photo-4.jpg"
-        />
-        <img
-          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/nat-photo-5.jpg"
-        />
-        <img
-          className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/nat-photo-6.jpg"
-        />
+        <div className="px-6 py-2 md:px-12 lg:px-4">
+          <img className="image-style" src="images/nat-photo-1.jpg" />
+        </div>
+        <div className="px-6 py-2 md:px-12 lg:px-4">
+          <img className="image-style" src="images/nat-photo-2.jpg" />
+        </div>
+        <div className="px-6 py-2 md:px-12 lg:px-4">
+          <img className="image-style" src="images/nat-photo-3.jpg" />
+        </div>
+        <div className="px-6 py-2 md:px-12 lg:px-4">
+          <img className="image-style" src="images/nat-photo-4.jpg" />
+        </div>
+        <div className="px-6 py-2 md:px-12 lg:px-4">
+          <img className="image-style" src="images/nat-photo-5.jpg" />
+        </div>
+        <div className="px-6 py-2 md:px-12 lg:px-4">
+          <img className="image-style" src="images/nat-photo-6.jpg" />
+        </div>
       </div>
     </div>
   );
