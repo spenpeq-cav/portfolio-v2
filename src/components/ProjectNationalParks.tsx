@@ -83,27 +83,27 @@ function ProjectNationalParks() {
       <div className="flex flex-wrap justify-center">
         <img
           className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/nat-photo-1.JPG"
+          src="images/nat-photo-1.jpg"
         />
         <img
           className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/nat-photo-2.JPG"
+          src="images/nat-photo-2.jpg"
         />
         <img
           className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/nat-photo-3.JPG"
+          src="images/nat-photo-3.jpg"
         />
         <img
           className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/nat-photo-4.JPG"
+          src="images/nat-photo-4.jpg"
         />
         <img
           className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/nat-photo-5.JPG"
+          src="images/nat-photo-5.jpg"
         />
         <img
           className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/nat-photo-6.JPG"
+          src="images/nat-photo-6.jpg"
         />
       </div>
     </div>

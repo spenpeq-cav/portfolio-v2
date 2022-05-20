@@ -68,27 +68,27 @@ function ProjectFinanceTracker() {
       <div className="flex flex-wrap justify-center">
         <img
           className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/finance_pic_1.JPG"
+          src="images/finance_pic_1.jpg"
         />
         <img
           className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/finance_pic_2.JPG"
+          src="images/finance_pic_2.jpg"
         />
         <img
           className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/finance_pic_6.JPG"
+          src="images/finance_pic_6.jpg"
         />
         <img
           className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/finance_pic_3.JPG"
+          src="images/finance_pic_3.jpg"
         />
         <img
           className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/finance_pic_4.JPG"
+          src="images/finance_pic_4.jpg"
         />
         <img
           className="mb-4 px-6 py-2 md:px-12 lg:h-96 lg:w-max lg:px-4"
-          src="images/finance_pic_5.JPG"
+          src="images/finance_pic_5.jpg"
         />
       </div>
     </div>
