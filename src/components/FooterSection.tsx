@@ -126,6 +126,15 @@ function FooterSection() {
               </a>
             </li>
             <li className="social-btn">
+              <a
+                href="https://twitter.com/spenpeq"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fab fa-twitter-square fa-3x"></i>
+              </a>
+            </li>
+            <li className="social-btn">
               <a href="mailto: spencer.peq@gmail.com">
                 <i className="fas fa-envelope-square fa-3x"></i>
               </a>

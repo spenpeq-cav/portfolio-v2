@@ -10,10 +10,12 @@ function App() {
   return (
     <div className="bg-gray-300">
       <ProfileSection />
-      <ProjectFinanceTracker />
-      <ProjectNationalParks />
-      <ProjectEcommerce />
-      <ProjectCommunityOne />
+      <section id="projects">
+        <ProjectFinanceTracker />
+        <ProjectNationalParks />
+        <ProjectEcommerce />
+        <ProjectCommunityOne />
+      </section>
       <FooterSection />
     </div>
   );
