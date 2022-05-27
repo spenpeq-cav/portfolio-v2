@@ -5,6 +5,7 @@ import ProjectNationalParks from "./components/ProjectNationalParks";
 import ProjectEcommerce from "./components/ProjectEcommerce";
 import ProjectCommunityOne from "./components/ProjectCommunityOne";
 import FooterSection from "./components/FooterSection";
+import ProjectGitProfiles from "./components/ProjectGitProfiles";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <ProjectFinanceTracker />
         <ProjectNationalParks />
         <ProjectEcommerce />
-        <ProjectCommunityOne />
+        {/* <ProjectCommunityOne /> */}
+        <ProjectGitProfiles />
       </section>
       <FooterSection />
     </div>

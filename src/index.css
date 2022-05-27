@@ -35,6 +35,11 @@
       focus:ring-teal-600 focus:ring-opacity-20 
       active:bg-teal-500 text-neutral-100 border-2 border-neutral-200 hover:text-neutral-900 hover:border-neutral-900;
   }
+  .btn-primary5 {
+    @apply bg-slate-700 hover:bg-slate-300
+    focus:ring-slate-600 focus:ring-opacity-20 
+    active:bg-slate-500 text-neutral-100 border-2 border-neutral-200 hover:text-neutral-900 hover:border-neutral-900;
+}
   .btn-secondary {
       @apply bg-neutral-300 hover:bg-neutral-200
       focus:ring-neutral-300 focus:ring-opacity-50 
