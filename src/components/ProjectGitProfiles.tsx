@@ -1,3 +1,5 @@
+import LiveButton from "./LiveButton";
+
 function ProjectGitProfiles() {
   return (
     <div className="bg-gradient-to-tl from-slate-900 to-slate-800 py-12">
@@ -14,17 +16,7 @@ function ProjectGitProfiles() {
             profile information such as name, followers, and project repos.
           </p>
           <div className="flex flex-col sm:flex-row">
-            <a
-              className="btn btn-live my-4 sm:my-0"
-              target="_blank"
-              href="http://github-profiles-angular.vercel.app/"
-            >
-              <span className="flex">
-                <i className="fa-solid fa-circle fa-xs absolute inline-flex animate-ping opacity-80 mt-3"></i>
-                <i className="fa-solid fa-circle fa-xs relative inline-flex pt-3"></i>
-                <span className="inline-flex pl-2">Live Site</span>
-              </span>
-            </a>
+            <LiveButton link={"http://github-profiles-angular.vercel.app/"} />
             <a
               className="btn btn-primary5 text-center sm:ml-4"
               target="_blank"
@@ -41,7 +33,8 @@ function ProjectGitProfiles() {
             <i className="fab fa-angular text-red-600"></i> Angular
           </li>
           <li className="bg-slate-700 tech-labels">
-            <i className="fa-solid fa-t fa-xs text-blue-400"></i><i className="fa-solid fa-s fa-xs text-blue-400"></i> Typescript
+            <i className="fa-solid fa-t fa-xs text-blue-400"></i>
+            <i className="fa-solid fa-s fa-xs text-blue-400"></i> Typescript
           </li>
           <li className="bg-slate-700 tech-labels">
             <i className="fab fa-js-square text-yellow-300"></i> JavaScript

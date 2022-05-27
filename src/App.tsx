@@ -14,9 +14,9 @@ function App() {
       <section id="projects">
         <ProjectFinanceTracker />
         <ProjectNationalParks />
+        <ProjectGitProfiles />
         <ProjectEcommerce />
         {/* <ProjectCommunityOne /> */}
-        <ProjectGitProfiles />
       </section>
       <FooterSection />
     </div>

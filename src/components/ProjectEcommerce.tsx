@@ -1,4 +1,4 @@
-import React from "react";
+import LiveButton from "./LiveButton";
 
 function ProjectEcommerce() {
   return (
@@ -18,17 +18,9 @@ function ProjectEcommerce() {
             etc.
           </p>
           <div className="flex flex-col sm:flex-row">
-            <a
-              className="btn btn-live my-4 sm:my-0"
-              target="_blank"
-              href="https://spencer-ecommerce-shop.herokuapp.com/"
-            >
-              <span className="flex">
-                <i className="fas fa-circle fa-xs absolute inline-flex animate-ping opacity-80 mt-1.5"></i>
-                <i className="fas fa-circle fa-xs relative inline-flex pt-1.5"></i>
-                <span className="inline-flex pl-2">Live Site</span>
-              </span>
-            </a>
+            <LiveButton
+              link={"https://spencer-ecommerce-shop.herokuapp.com/"}
+            />
             <a
               className="btn btn-primary2 text-center sm:ml-4"
               target="_blank"
