@@ -5,7 +5,7 @@
 @layer components{
   .btn {
       @apply transform transition inline-block px-8 py-2 rounded-lg focus:outline-none focus:ring focus:ring-offset-2
-      uppercase tracking-wider font-semibold text-sm sm:text-base duration-500 ease-in-out hover:scale-105
+      tracking-wider font-semibold text-sm sm:text-base duration-500 ease-in-out hover:scale-105;
   }
   .btn-2 {
     @apply transform transition inline-block px-8 py-2 rounded-lg focus:outline-none
@@ -16,34 +16,34 @@
     active:bg-blue-300 text-neutral-900;
 }
   .btn-primary1 {
-      @apply bg-yellow-900 hover:bg-green-800
-      focus:ring-green-200 focus:ring-opacity-50 
-      active:bg-green-700 text-green-100 hover:-translate-y-1 border border-neutral-100;
+      @apply bg-yellow-900 hover:bg-yellow-600
+      focus:ring-yellow-700 focus:ring-opacity-50 
+      active:bg-yellow-500 text-neutral-50 border-2 border-neutral-50 hover:text-neutral-900 hover:border-neutral-900;
   }
   .btn-primary2 {
       @apply bg-neutral-800 hover:bg-neutral-600
       focus:ring-neutral-800 focus:ring-opacity-50 
-      active:bg-neutral-500 text-neutral-100 hover:-translate-y-1 border border-neutral-100;
+      active:bg-neutral-500 text-neutral-100 border border-neutral-100;
   }
   .btn-primary3 {
       @apply bg-indigo-700 hover:bg-indigo-500
       focus:ring-indigo-600 focus:ring-opacity-50 
-      active:bg-indigo-400 text-indigo-100 hover:-translate-y-1 border border-neutral-100;
+      active:bg-indigo-400 text-indigo-100 border border-neutral-100;
   }
   .btn-primary4 {
-      @apply bg-teal-900 hover:bg-teal-700
+      @apply bg-teal-900 hover:bg-teal-600
       focus:ring-teal-600 focus:ring-opacity-20 
-      active:bg-teal-600 text-neutral-100 hover:-translate-y-1 border border-neutral-200 hover:text-neutral-900;
+      active:bg-teal-500 text-neutral-100 border-2 border-neutral-200 hover:text-neutral-900 hover:border-neutral-900;
   }
   .btn-secondary {
       @apply bg-neutral-300 hover:bg-neutral-200
       focus:ring-neutral-300 focus:ring-opacity-50 
-      active:bg-neutral-400 text-neutral-800 hover:-translate-y-1;
+      active:bg-neutral-400 text-neutral-800;
   }
   .btn-live {
-      @apply bg-red-100 hover:bg-red-400
-      focus:ring-red-500 focus:ring-opacity-50 
-      active:bg-red-700 text-red-600 shadow-lg hover:-translate-y-1 border-2 border-red-500 bg-opacity-90 hover:bg-opacity-30;
+      @apply bg-red-600 hover:bg-red-700 hover:text-neutral-900 hover:border-neutral-900
+      focus:ring-red-500 focus:ring-opacity-70 
+      active:bg-red-500 text-neutral-50 shadow-lg border-2 border-neutral-50 bg-opacity-90 tracking-widest;
   }
 
   .social-btn {

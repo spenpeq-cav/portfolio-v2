@@ -23,9 +23,9 @@ function ProjectNationalParks() {
               href="https://national-parks-spencer.herokuapp.com/"
             >
               <span className="flex">
-                <i className="fas fa-circle fa-xs absolute inline-flex animate-ping opacity-80 mt-1"></i>
-                <i className="fas fa-circle fa-xs relative inline-flex top-1"></i>
-                <span className="inline-flex pl-2">Live Demo</span>
+                <i className="fas fa-circle fa-xs absolute inline-flex animate-ping opacity-80 mt-1.5"></i>
+                <i className="fas fa-circle fa-xs relative inline-flex pt-1.5"></i>
+                <span className="inline-flex pl-2">Live Site</span>
               </span>
             </a>
             <a
@@ -33,7 +33,7 @@ function ProjectNationalParks() {
               target="_blank"
               href="https://github.com/spenpeq/national_parks"
             >
-              Code
+              GitHub
             </a>
           </div>
         </div>

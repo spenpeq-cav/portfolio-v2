@@ -22,9 +22,9 @@ function ProjectFinanceTracker() {
               href="https://finance-tracker-v2.vercel.app/"
             >
               <span className="flex">
-                <i className="fas fa-circle fa-xs absolute inline-flex animate-ping opacity-80 mt-1"></i>
-                <i className="fas fa-circle fa-xs relative inline-flex top-1"></i>
-                <span className="inline-flex pl-2">Live Demo</span>
+                <i className="fas fa-circle fa-xs absolute inline-flex animate-ping opacity-80 mt-1.5"></i>
+                <i className="fas fa-circle fa-xs relative inline-flex pt-1.5"></i>
+                <span className="inline-flex pl-2">Live Site</span>
               </span>
             </a>
             <a
@@ -32,7 +32,7 @@ function ProjectFinanceTracker() {
               target="_blank"
               href="https://github.com/spenpeq/finance-tracker-v2"
             >
-              Code
+              GitHub
             </a>
           </div>
         </div>
@@ -67,40 +67,22 @@ function ProjectFinanceTracker() {
       </div>
       <div className="flex flex-wrap justify-center">
         <div className="px-6 py-2 md:px-12 lg:px-4">
-          <img
-            className="image-style"
-            src="images/finance_pic_1.jpg"
-          />
+          <img className="image-style" src="images/finance_pic_1.jpg" />
         </div>
         <div className="px-6 py-2 md:px-12 lg:px-4">
-          <img
-            className="image-style"
-            src="images/finance_pic_2.jpg"
-          />
+          <img className="image-style" src="images/finance_pic_2.jpg" />
         </div>
         <div className="px-6 py-2 md:px-12 lg:px-4">
-          <img
-            className="image-style"
-            src="images/finance_pic_6.jpg"
-          />
+          <img className="image-style" src="images/finance_pic_6.jpg" />
         </div>
         <div className="px-6 py-2 md:px-12 lg:px-4">
-          <img
-            className="image-style"
-            src="images/finance_pic_3.jpg"
-          />
+          <img className="image-style" src="images/finance_pic_3.jpg" />
         </div>
         <div className="px-6 py-2 md:px-12 lg:px-4">
-          <img
-            className="image-style"
-            src="images/finance_pic_4.jpg"
-          />
+          <img className="image-style" src="images/finance_pic_4.jpg" />
         </div>
         <div className="px-6 py-2 md:px-12 lg:px-4">
-          <img
-            className="image-style"
-            src="images/finance_pic_5.jpg"
-          />
+          <img className="image-style" src="images/finance_pic_5.jpg" />
         </div>
       </div>
     </div>
