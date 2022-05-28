@@ -1,8 +1,9 @@
-import LiveButton from "./LiveButton";
+import LiveButton from "../LiveButton";
+import ProjectLayout from "./ProjectLayout";
 
 function ProjectEcommerce() {
   return (
-    <div className="bg-gradient-to-tl from-neutral-400 to-neutral-500 py-12">
+    <ProjectLayout bgColor="from-neutral-400 to-neutral-500">
       <div className="grid grid-cols-3 gap-2 px-8 py-10 xl:px-36">
         <img
           className="w-24 h-24 col-span-1 mx-auto md:w-auto md:h-36 lg:h-48 lg:mr-16"
@@ -79,7 +80,7 @@ function ProjectEcommerce() {
           <img className="image-style" src="images/store4.jpg" />
         </div>
       </div>
-    </div>
+    </ProjectLayout>
   );
 }
 

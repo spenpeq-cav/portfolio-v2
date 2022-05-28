@@ -1,8 +1,9 @@
-import LiveButton from "./LiveButton";
+import LiveButton from "../LiveButton";
+import ProjectLayout from "./ProjectLayout";
 
 function ProjectGitProfiles() {
   return (
-    <div className="bg-gradient-to-tl from-slate-900 to-slate-800 py-12">
+    <ProjectLayout bgColor="from-slate-900 to-slate-800">
       <div className="grid grid-cols-3 gap-2 px-8 py-10 xl:px-36">
         {/* <img className="w-24 h-24 col-span-1 mx-auto md:w-36 md:h-36" src="img/placeholder.png" /> */}
         <i className="fa-brands fa-github flex flex-col bg-slate-700 rounded-xl text-slate-50 text-center md:text-7xl justify-center w-24 h-24 col-span-1 mx-auto md:w-36 md:h-36 lg:mr-16"></i>
@@ -58,7 +59,7 @@ function ProjectGitProfiles() {
           <img className="image-style" src="images/nat-photo-3.jpg" />
         </div>
       </div> */}
-    </div>
+    </ProjectLayout>
   );
 }
 

@@ -1,8 +1,9 @@
-import LiveButton from "./LiveButton";
+import LiveButton from "../LiveButton";
+import ProjectLayout from "./ProjectLayout";
 
 function ProjectFinanceTracker() {
   return (
-    <div className="bg-gradient-to-tl from-teal-800 to-teal-700 py-12">
+    <ProjectLayout bgColor="from-teal-800 to-teal-700">
       <div className="grid grid-cols-3 gap-2 px-8 py-10 xl:px-36">
         {/* <img className="w-24 h-24 col-span-1 mx-auto md:w-36 md:h-36" src="img/placeholder.png" /> */}
         <i className="fas fa-money-bill-wave flex flex-col bg-lime-900 rounded-xl text-lime-600 text-center text-5xl md:text-7xl justify-center w-24 h-24 col-span-1 mx-auto md:w-36 md:h-36 lg:mr-16"></i>
@@ -75,7 +76,7 @@ function ProjectFinanceTracker() {
           <img className="image-style" src="images/finance_pic_5.jpg" />
         </div>
       </div>
-    </div>
+    </ProjectLayout>
   );
 }
 

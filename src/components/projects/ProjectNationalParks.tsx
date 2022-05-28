@@ -1,8 +1,9 @@
-import LiveButton from "./LiveButton";
+import LiveButton from "../LiveButton";
+import ProjectLayout from "./ProjectLayout";
 
 function ProjectNationalParks() {
   return (
-    <div className="bg-gradient-to-tl from-green-900 to-green-800 py-12">
+    <ProjectLayout bgColor="from-green-900 to-green-800">
       <div className="grid grid-cols-3 gap-2 px-8 py-10 xl:px-36">
         {/* <img className="w-24 h-24 col-span-1 mx-auto md:w-36 md:h-36" src="img/placeholder.png" /> */}
         <i className="fas fa-mountain flex flex-col bg-yellow-900 rounded-xl text-green-700 text-center text-5xl md:text-7xl justify-center w-24 h-24 col-span-1 mx-auto md:w-36 md:h-36 lg:mr-16"></i>
@@ -92,7 +93,7 @@ function ProjectNationalParks() {
           <img className="image-style" src="images/nat-photo-6.jpg" />
         </div>
       </div>
-    </div>
+    </ProjectLayout>
   );
 }
 
