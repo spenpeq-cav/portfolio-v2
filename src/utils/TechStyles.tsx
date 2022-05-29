@@ -17,8 +17,7 @@ export const TechStyles = {
   Typescript: {
     text: "Typescript",
     color: "text-blue-400 ",
-    icon1: "fa-solid fa-t fa-xs ",
-    icon2: "fa-solid fa-s fa-xs ",
+    icon: "fa-solid fa-t fa-xs ",
   },
   Tailwind: {
     text: "TailwindCSS",
@@ -87,10 +86,8 @@ export const TechStyles = {
   },
   GoogleMaps: {
     text: "Google Maps API",
-    color1: "text-neutral-200 ",
-    color2: "text-blue-500",
-    icon1: "fas fa-cogs ",
-    icon2: "fab fa-google ",
+    color: "text-blue-500",
+    icon: "fab fa-google ",
   },
   Angular: {
     text: "Angular",

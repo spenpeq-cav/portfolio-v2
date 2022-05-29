@@ -1,5 +1,10 @@
 import { TechStyles as ts } from "./TechStyles";
 
+export type TechLabelsType = {
+  text: string;
+  color: string;
+  icon: string;
+};
 export const FinanceProjectTech = [
   ts.React,
   ts.Next,
