@@ -9,7 +9,7 @@ export const FinanceProjectTech = [
   ts.React,
   ts.Next,
   ts.NextAuth,
-  ts.Tailwind,
+  ts.Typescript,
   ts.Tailwind,
   ts.Postgres,
   ts.Plaid,

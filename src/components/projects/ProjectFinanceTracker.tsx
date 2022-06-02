@@ -1,5 +1,7 @@
 import LiveButton from "../LiveButton";
 import ProjectLayout from "./ProjectLayout";
+import TechLabels from "../TechLabels";
+import { FinanceProjectTech } from "../../utils/ProjectTech";
 
 function ProjectFinanceTracker() {
   return (
@@ -28,34 +30,9 @@ function ProjectFinanceTracker() {
           </div>
         </div>
       </div>
-      <div className="lg:px-56">
-        <ul className="list-none flex flex-wrap py-4 justify-center">
-          <li className="bg-teal-900 tech-labels">
-            <i className="fab fa-react text-blue-400"></i> React
-          </li>
-          <li className="bg-teal-900 tech-labels">
-            <i className="fab fa-react text-blue-400"></i> Next.js
-          </li>
-          <li className="bg-teal-900 tech-labels">
-            <i className="fab fa-react text-blue-400"></i> Next-Auth
-          </li>
-          <li className="bg-teal-900 tech-labels">
-            <i className="fab fa-react text-blue-400"></i> Typescript
-          </li>
-          <li className="bg-teal-900 tech-labels">
-            <i className="fas fa-wind text-blue-300"></i> Tailwind CSS
-          </li>
-          <li className="bg-teal-900 tech-labels">
-            <i className="fas fa-database text-green-400"></i> PostgreSQL
-          </li>
-          <li className="bg-teal-900 tech-labels">
-            <i className="fas fa-cogs text-gray-200"></i> Plaid API
-          </li>
-          <li className="bg-teal-900 tech-labels">
-            <i className="fas fa-cogs text-gray-200"></i> Prisma
-          </li>
-        </ul>
-      </div>
+      
+      <TechLabels labels={FinanceProjectTech} bgColor={"bg-teal-900"} />
+
       <div className="flex flex-wrap justify-center">
         <div className="px-6 py-2 md:px-12 lg:px-4">
           <img className="image-style" src="images/finance_pic_1.jpg" />
