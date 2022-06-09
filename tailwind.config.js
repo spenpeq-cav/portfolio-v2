@@ -8,7 +8,7 @@ module.exports = {
         "top-image-3": "url('https://home.cern/sites/default/files/2018-06/bubble-chamber-bebc.jpg')",
         "top-image-4": "url('https://i.stack.imgur.com/ER6mQ.jpg')",
         "top-image-5": "url('https://www.teahub.io/photos/full/339-3394753_the-strokes-wallpaper-subatomic-particles-bubble-chamber.jpg')",
-        "top-image-6": "url('https://cds.cern.ch/record/39312/files/66954B.jpeg')"
+        "top-image-6": "url('/public/images/top-image.jpeg')"
       },
     },
   },
